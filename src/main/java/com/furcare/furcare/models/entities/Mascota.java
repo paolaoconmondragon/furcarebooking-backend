@@ -48,4 +48,14 @@ public class Mascota {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
 }

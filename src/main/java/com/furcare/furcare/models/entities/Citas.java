@@ -46,6 +46,10 @@ public class Citas {
     @JoinColumn(name = "id_cliente")
     private Cliente cliente;
     
+    public Long getId() {
+        return id;
+    }
+    
     public String getFecha() {
         return fecha;
     }
@@ -93,6 +97,7 @@ public class Citas {
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
+
 
     
 }

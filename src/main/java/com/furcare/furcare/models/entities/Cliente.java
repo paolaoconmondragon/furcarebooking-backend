@@ -101,5 +101,12 @@ public class Cliente {
         return mascotas;
     }
 
-    
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setCitas(List<Citas> citas) {
+        this.citas = citas;
+    }
+
 }
