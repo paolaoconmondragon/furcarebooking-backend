@@ -109,4 +109,8 @@ public class Cliente {
         this.citas = citas;
     }
 
+    public Long getId() {
+        return id;
+    }
+
 }
