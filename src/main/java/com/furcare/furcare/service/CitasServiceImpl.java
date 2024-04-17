@@ -29,7 +29,6 @@ public class CitasServiceImpl implements ICitasService{
             Citas citaActualizada = resultado.get();
             citaActualizada.setFecha(cita.getFecha());
             citaActualizada.setHora(cita.getHora());
-            citaActualizada.setTipo(cita.getTipo());
             return citaRepository.save(citaActualizada);
         }else{
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, String.format("La cita con el $id no existe", idCita));
